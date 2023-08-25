@@ -1,0 +1,21 @@
+body{
+    background-image: url(img/background.jpg) !important;
+    background-attachment: fixed;  
+    
+    color: rgb(255, 255, 255) !important;
+}
+h1{
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+h5{
+    font-family: 'Franklin Gothic Medium';
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color:black;
+}
+h6{
+    font-family: 'Franklin Gothic Medium';
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+

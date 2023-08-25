@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guitar Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <style>
+    .img-small {
+        max-width: 40px; /* Defina o tamanho máximo desejado para a imagem */
+        height: auto; /* Mantenha a proporção da imagem */
+    }
+</style>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <img src="img/flycon.png" alt="Logo" class="img-fluid img-small">
+        <a class="navbar-brand" href="#">Bandas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://localhost/login/index.php">Logout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="loja.html">Bandas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mais
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="colecao.html">Coleções</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="sobre.html">Sobre</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+      <br><br><br>
+      <center>
+        <h1>Bem vindo a pagina de bandas!</h1>
+        <h6>Esta é uma pagina dedicada a quem busca por conteudo novo. <br>
+        Dê uma olhada, talvez encontre algo que goste!</h6>
+    </center>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/nirvana.svg" class="card-img-top" alt="..." style="width: 720px; height: 720px;">
+            <div class="card-body">
+              <h5 class="card-title">Nirvana</h5>
+              <p class="card-text">Nirvana: Uma icônica banda de rock alternativo dos anos 90, o Nirvana misturou elementos do punk rock com grunge, criando um som poderoso e distinto.</p>
+              <a href="https://pt.wikipedia.org/wiki/Nirvana_(banda)" class="btn btn-primary">Saiba Mais</a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/The_Dear_Hunter_-_2020.jpg" class="card-img-top" alt="..." style="width: 720px; height: 720px;">
+            <div class="card-body">
+              <h5 class="card-title">The Dear Hunter</h5>
+              <p class="card-text">Uma banda de rock progressivo com uma mistura de influências que vão desde o rock alternativo até elementos mais teatrais e progressivos.</p>
+              <a href="https://pt.wikipedia.org/wiki/The_Dear_Hunter" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/cat.jpg" class="card-img-top" alt="..." style="width: 720px; height: 720px;">
+            <div class="card-body">
+              <h5 class="card-title">The Cat Empire</h5>
+              <p class="card-text">Uma banda australiana que mistura rock, ska, jazz e elementos de música latina. Suas músicas são animadas e cheias de energia, criando uma atmosfera festiva única.</p>
+              <a href="https://pt.wikipedia.org/wiki/The_Cat_Empire" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/rabbit.jpg" class="card-img-top" alt="..." style="width: 720px; height: 720px;">
+            <div class="card-body">
+              <h5 class="card-title">Frightened Rabbit</h5>
+              <p class="card-text">Uma banda escocesa com um som indie rock e letras emotivas. Suas músicas frequentemente exploram temas de vulnerabilidade e conexão humana de maneira sincera e cativante.</p>
+              <a href="https://pt.wikipedia.org/wiki/Frightened_Rabbit" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/three.jpg" class="card-img-top" alt="..." style="width: 720px; height: 720px;">
+            <div class="card-body">
+              <h5 class="card-title">Porcupine Tree</h5>
+              <p class="card-text">Uma banda britânica de rock progressivo liderada por Steven Wilson, conhecida por sua música atmosférica, letras introspectivas e experimentação musical.</p>
+              <a href="https://pt.wikipedia.org/wiki/Porcupine_Tree" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/rivalsons.jpg" class="card-img-top" alt="..." style="width: 720px; height: 720px;">
+            <div class="card-body">
+              <h5 class="card-title">Rival Sons</h5>
+              <p class="card-text">Uma banda de rock americana que combina elementos do rock clássico com uma abordagem moderna, resultando em um som enérgico e cheio de alma.</p>
+              <a href="https://pt.wikipedia.org/wiki/Rival_Sons" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/twod.jpg" class="card-img-top" alt="..." style="width: 720px; height: 720px;">
+            <div class="card-body">
+              <h5 class="card-title">The War on Drugs</h5>
+              <p class="card-text">Uma banda de indie rock americana que incorpora elementos do rock dos anos 80 em sua música, criando uma paisagem sonora expansiva e envolvente.
+              </p><a href="https://en.wikipedia.org/wiki/The_War_on_Drugs_(band)" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/BOS.jpg" class="card-img-top" alt="..." style="width: 720px; height: 720px;">
+            <div class="card-body">
+              <h5 class="card-title">Band of Skulls</h5>
+              <p class="card-text">Uma banda britânica que mistura rock alternativo com blues e garage rock, criando músicas cativantes e cheias de energia.</p>
+              <a href="https://en.wikipedia.org/wiki/Band_of_Skulls" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+  }
+  
+  .footer {
+      background-color: #212121;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position:relative ;
+      bottom: 0;
+      width: 100%;
+  }
+  </style>
+      <div class="footer">
+    <p>&copy; 2023 André Coelho Andrade</p> <p>apelido de criador: Co3lho_Afton</p>
+</div>
+</html>
